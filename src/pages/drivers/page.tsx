@@ -493,7 +493,7 @@ export default function DriversPage() {
                                         />
                                     </div>
                                     <div>
-                                        <label className="block text-xs font-semibold text-foreground-500 mb-1">NIC Number</label>
+                                        <label className="block text-xs font-semibold text-foreground-500 mb-1">Your NIC Number</label>
                                         <input
                                             type="text"
                                             value={form.nic_number}
@@ -575,7 +575,7 @@ export default function DriversPage() {
                                                 form.license_expiry && isLicenseExpired(form.license_expiry)
                                                     ? 'border-red-300 bg-red-50/50 text-red-700'
                                                     : form.license_expiry && daysUntilExpiry(form.license_expiry) <= 30
-                                                        ? 'border-amber-300 bg-amber-50/50 text-amber-700'
+                                                        ? 'border-amber-400 bg-amber-50/50 text-amber-700'
                                                         : 'border-background-300 text-foreground-900'
                                             }`}
                                             required
