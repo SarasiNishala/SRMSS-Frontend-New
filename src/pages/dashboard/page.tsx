@@ -131,7 +131,7 @@ interface BusUtilization {
     net_profit: string | null;
 }
 
-const PIE_COLORS = ['#60a5fa', '#34d399', '#c084fc', '#fb923c', '#f87171', '#10b981'];
+const PIE_COLORS = ['#60a5fa', '#2ac98f', '#c084fc', '#fb923c', '#f87171', '#10b981'];
 
 const getTripStatusBadge = (status: string) => {
     switch (status) {
